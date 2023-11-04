@@ -1,5 +1,5 @@
 
-//FIFO
+//FIFO PAGE REPLACEMENT ALGO
 
 //import java.util.HashSet;
 //import java.util.LinkedList;
