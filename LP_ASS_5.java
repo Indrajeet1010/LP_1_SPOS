@@ -85,12 +85,14 @@
 //}
 
 
+
+
 // Java implementation of above algorithm
 
 //LRU
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
+// import java.util.HashMap;
+// import java.util.HashSet;
+// import java.util.Iterator;
 
 //class Test
 //{
@@ -182,7 +184,10 @@ import java.util.Iterator;
 //    }
 //}
 
-    //optimal
+
+
+
+//optimal
 
 // Java program to demonstrate optimal page
 // replacement algorithm.
