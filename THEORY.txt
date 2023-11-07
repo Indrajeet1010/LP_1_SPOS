@@ -69,4 +69,25 @@ Program 1 for one time slice
 Program 2 for one time slice
 Program 3 for one time slice
 and would repeat this order until one of the programs finished.
+
+
+*************************************************************************************************************************************
+
+
+
+Pass-1:
+Define symbols and literals and remember them in symbol table and literal table respectively.
+Keep track of location counter
+Process pseudo-operations
+Defines program that assigns the memory addresses to the variables and translates the source code into machine code
+
+
+
+
+
+Pass-2:
+Generate object code by converting symbolic op-code into respective numeric op-code
+Generate data for literals and look for values of symbols
+Defines program which reads the source code two times
+It reads the source code and translates the code into object code.
  
