@@ -73,65 +73,6 @@ class GFG3 {
     }
 }
 
-//practice 1
-
-//import java.text.ParseException;
-//
-//class FCFS{
-//    static void findWaitingTime(int process[],int n,int bt[],int wt[]){
-//
-//        wt[0]=0;
-//        for(int i=1;i<n;i++){
-//           wt[i]=bt[i-1]+wt[i-1];
-//        }
-//    }
-//
-//    static void findTurnAroundTime(int process[],int n, int bt[],int wt[],int tat[]){
-//
-//        for (int i=0;i<n;i++){
-//            tat[i]=wt[i]+bt[i];
-//        }
-//    }
-//
-//    static void findavgTime(int process[],int n,int bt[]){
-//        int wt[]=new int[n];
-//        int tat[]=new int[n];
-//        int total_wt=0;
-//        int total_tat=0;
-//
-//        findWaitingTime(process,n,bt,wt);
-//        findTurnAroundTime(process,n,bt,wt,tat);
-//
-//        System.out.println("Process Burst_time Waiting_Time TurnAround_Time");
-//
-//        for (int i=0;i<n;i++){
-//            total_wt=total_wt=wt[i];
-//            total_tat=total_tat+tat[i];
-//
-//            System.out.printf(" %d ",(i+1));
-//            System.out.printf(" %d ",bt[i]);
-//            System.out.printf(" %d ",wt[i]);
-//            System.out.printf(" %d\n ",tat[i]);
-//        }
-//
-//        int s = total_wt/n;
-//        int j = total_tat/n;
-//        System.out.println("\n");
-//        System.out.println("Avrage_wt_time :"+s);
-//        System.out.println("Average_tat_time :"+j);
-//    }
-//
-//    public static void main(String args[]) throws ParseException{
-//
-//        int process[]={1,2,3};
-//        int n = process.length;
-//
-//        int Burst_time[]={10,5,8};
-//
-//        findavgTime(process,n,Burst_time);
-//    }
-//}
-//
 
 
 
