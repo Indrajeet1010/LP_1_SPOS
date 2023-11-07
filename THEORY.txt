@@ -1,0 +1,72 @@
+Page Replacement Algorithms in Operating Systems
+
+1. First In First Out (FIFO): This is the simplest page replacement algorithm. In this algorithm, the operating system keeps track of all pages in the memory in a queue, the oldest page is in the front of the queue. When a page needs to be replaced page in the front of the queue is selected for removal.
+
+
+2. Optimal Page replacement: In this algorithm, pages are replaced which would not be used for the longest duration of time in the future. 
+3. Least Recently Used: In this algorithm, page will be replaced which is least recently used. 
+
+Example-3: Consider the page reference string 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2, 3 with 4 page frames. Find number of page faults. 
+
+https://www.geeksforgeeks.org/page-replacement-algorithms-in-operating-systems/
+
+
+*******************************************************************************************************************************************
+
+
+
+Memory Allocation
+First Fit
+Best Fit
+Worst Fit
+
+First Fit
+In the First Fit, the first available free hole fulfil the requirement of the process allocated. 
+
+
+
+Best Fit
+In the Best Fit, allocate the smallest hole that is big enough to process requirements. For this, we search the entire list, unless the list is ordered by size. 
+
+
+
+Worst Fit 
+In the Worst Fit, allocate the largest available hole to process. This method produces the largest leftover hole. 
+
+
+
+**************************************************************************************************************************************************
+
+https://www.futurelearn.com/info/courses/computer-systems/0/steps/53513
+
+CPU Scheduling Algorithms
+
+
+First Come, First Served (FCFS)
+Whichever program is added to the queue first is run until it finishes. Then the next program in the queue is run, and so on.
+
+
+
+
+
+Shortest Job Next (SJN)
+For this algorithm, the OS needs to know (or guess) the time each program will take to run. It picks the program which will take the shortest amount of time as the one to run next.
+
+
+
+
+Priority Scheduling
+The OS assigns each program a priority. This could be based on how much memory they take, or how important they are for maintaining a responsive user interface. The program with the highest priority is picked to run next.
+
+
+
+
+
+Round Robin (RR) scheduling
+Time on the CPU is divided into equal parts called “time slices”. Time slices are allocated to each program equally and cyclically. This means that if we had a list of three programs running, the CPU would run:
+
+Program 1 for one time slice
+Program 2 for one time slice
+Program 3 for one time slice
+and would repeat this order until one of the programs finished.
+ 
